@@ -1,0 +1,32 @@
+.list
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+.oneItem
+  width: calc(50% - 10px)
+  margin-bottom: 20px
+  border: 1px solid #FFE300
+  padding: 10px
+  box-sizing: border-box
+  color: white
+.name
+  font-size: 20px
+  margin-bottom: 5px
+.more
+  margin-top: 10px
+.moreLink
+  background-color: #FFE300
+  transition: all, 0.2s
+  color: black
+  width: 100%
+  display: block
+  margin: 0 -11px -11px -11px
+  padding: 11px
+  text-align: center
+  text-decoration: none
+  &:hover
+    background-color: #c5b000
+
+@media all and (max-width: 767px)
+  .oneItem
+    width: 100%
